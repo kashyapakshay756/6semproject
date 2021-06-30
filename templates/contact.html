@@ -1,0 +1,68 @@
+ {% extends 'base.html' %}
+{% block title %} contact{% endblock title %}
+{% block body %} 
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+
+
+
+  </div><!-- /.container -->
+<div class="container my-3">
+<form method="post" action="/contact">
+{% csrf_token %}
+  <div class="mb-3" style="width=25px;">
+    <h1 class="text-center" style="color: aliceblue;">Contact us</h1>
+    <label  class="form-label" style="color: aliceblue;">name</label>
+    <input type="name" class="form-control" name="name" >
+    
+    <label style="color: aliceblue;" class="form-label">email</label>
+    <input type="email" class="form-control" name="email">
+    
+    <label style="color: aliceblue;" class="form-label">adderess</label>
+    <input type="adde" class="form-control" name="adderess">
+    
+    <label style="color: aliceblue;" class="form-label">mobile</label>
+    <input type="mobile" class="form-control" name="mobile">
+  </div>
+  <div class="mb-3">
+    <label style="color: aliceblue;" class="form-label">Password</label>
+    <input type="password" class="form-control" name="password" >
+  </div>
+  <button type="submit" class="btn btn-primary" >Submit</button>
+</form>
+</div>
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    
+  </footer>
+</main>
+
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
+
+
+{% endblock body %}
+  
+

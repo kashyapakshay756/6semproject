@@ -1,0 +1,323 @@
+{% extends 'base.html' %}
+{% block title %} blog{% endblock title %}
+{% block body %}  
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:white;">
+	<div> 
+	<div class="container" style="margin-top: 90px;">
+	   <ul class="nav nav-tabs" id="myTab">
+	      <div class="row pricing_tble topmargin" style="display: block; background-color:white;">
+	         <article>
+	          
+	            <table border="1">
+	               <thead>
+	                  <tr>
+	                     <th style="background-color: lightgray;height:60px; text-align: center; width:350px;">Packages</th>
+	                     <th style="background-color: lightgray; text-align: center;width: 160px;">Basic</th>
+	                     <th style="background-color: lightgray; text-align: center;width: 160px;">Business</th>
+	                     <th style="background-color: lightgray; text-align: center;width: 160px;">Professional</th>
+	                     <th style="background-color: lightgray; text-align: center;width: 160px;">Creative</th>
+	                     <th style="background-color: lightgray; text-align: center;width: 160px;">Extra Creative</th>
+	                  </tr>
+	                  <tr>
+	                     <td style="text-align: center;height: 60px;"><h3><b>Price</b><h3>	</td>
+	                     <td style="background-color: #3971e3;"><a href="https://www.foduu.com/get-quote"><span style="color: white;margin-left: 40px;font-size: 25px; ">₹</span><span style="color: white;font-size: 25px;">4499/-</span></a></td>
+	                     <td style="background-color: 
+#6a9972
+;"><a href="https://www.foduu.com/get-quote"><span style="color: white;margin-left: 40px;font-size: 25px; ">₹</span><span style="color: white; font-size: 25px;">9999/-</span></a></td>
+	                     <td style="background-color: #e01638;"><a href="https://www.foduu.com/get-quote"><span style="color: white;margin-left: 40px; font-size: 25px;">₹</span><span style="color: white; font-size: 25px;">14999/-</span></a></td>
+	                     <td style="background-color: 
+#ebd215
+;"><a href="https://www.foduu.com/get-quote"><span style="color: white;margin-left: 40px; font-size: 25px; ">₹</span><span style="font-size: 25px; color: white;">24999/-</span></a></td>
+	                     <td style="background-color: #ed26e3;"><a href="https://www.foduu.com/get-quote"><span style="color: white;margin-left: 40px;font-size: 25px; ">₹</span><span style="color: white;font-size: 25px;">39999/-</span></a></td>
+	                  </tr>
+	               </thead>
+	               <tbody >
+	                  <tr>
+	                     <td colspan="2" style="background: #F5F5F5; height: 60px; font-size: 25px;">Get started easily</td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Home Page</td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Number of Pages</td>
+	                     <td style="text-align: center;">5</td>
+	                     <td style="text-align: center;">8</td>
+	                     <td style="text-align: center;">12</td>
+	                     <td style="text-align: center;">15</td>
+	                     <td style="text-align: center;">Unlimited</td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Design Quality</td>
+	                     <td style="text-align: center;">Basic</td>
+	                     <td style="text-align: center;">Business</td>
+	                     <td style="text-align: center;">Professional</td>
+	                     <td style="text-align: center;">Creative</td>
+	                     <td style="text-align: center;">Extra Creative</td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Navigation system</td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;">editable</td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Domain (Free for 1 year)</td>
+	                     <td style="text-align: center;">-</td>
+	                     <td style="text-align: center;">.in</td>
+	                     <td style="text-align: center;">.com/.net/.in </td>
+	                     <td style="text-align: center;">.com/.net/.in </td>
+	                     <td style="text-align: center;">.com/.net/.in</td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Web space (Free for 1 year)</td>
+	                     <td style="text-align: center;">300MB</td>
+	                     <td style="text-align: center;">500MB</td>
+	                     <td style="text-align: center;">700MB </td>
+	                     <td style="text-align: center;">1GB </td>
+	                     <td style="text-align: center;">2GB</td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Number of Email Id (Free for 1 year)</td>
+	                     <td style="text-align: center;">1</td>
+	                     <td style="text-align: center;">2</td>
+	                     <td style="text-align: center;">3</td>
+	                     <td style="text-align: center;">5</td>
+	                     <td style="text-align: center;">7</td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Inquiry Page</td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Secure admin panel</td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;"> Editable Content</td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Blog Page</td>
+	                     <td style="text-align: center;"><span class="tick">-</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;">With Comments</td>
+	                     <td style="text-align: center;">With Comments</td>
+	                     <td style="text-align: center;">With Comments</td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Zoom gallery</td>
+	                     <td style="text-align: center;">1</td>
+	                     <td style="text-align: center;">2</td>
+	                     <td style="text-align: center;">5</td>
+	                     <td style="text-align: center;">5</td>
+	                     <td style="text-align: center;">5</td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Editable slider (Rotating Banner/Flash)</td>
+	                     <td style="text-align: center;">-</td>
+	                     <td style="text-align: center;">-</td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span> </td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Number of sliders</td>
+	                     <td style="text-align: center;">1</td>
+	                     <td style="text-align: center;">2</td>
+	                     <td style="text-align: center;">3</td>
+	                     <td style="text-align: center;">-</td>
+	                     <td style="text-align: center;">Unlimited</td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Parallex</td>
+	                     <td style="text-align: center;">No</td>
+	                     <td style="text-align: center;">1</td>
+	                     <td style="text-align: center;">2</td>
+	                     <td style="text-align: center;">3</td>
+	                     <td style="text-align: center;">Unlimited</td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Menu Creation</td>
+	                     <td style="text-align: center;">-</td>
+	                     <td style="text-align: center;"> - </td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Multiple User</td>
+	                     <td style="text-align: center;">-</td>
+	                     <td style="text-align: center;">-</td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span> </td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Mobile Tablet Friendly Design</td>
+	                     <td style="text-align: center;">-</td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span> </td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Search Engine Friendly</td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span> </td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Forms</td>
+	                     <td style="text-align: center;">1</td>
+	                     <td style="text-align: center;">1</td>
+	                     <td style="text-align: center;">2 </td>
+	                     <td style="text-align: center;">2</td>
+	                     <td style="text-align: center;">Multiple</td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Social media link integration</td>
+	                     <td style="text-align: center;">-</td>
+	                     <td style="text-align: center;">-</td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span> </td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Google Map integration</td>
+	                     <td style="text-align: center;">-</td>
+	                     <td style="text-align: center;">-</td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span> </td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Whatsapp chat integration</td>
+	                     <td style="text-align: center;"><span class="tick">-</span></td>
+	                     <td style="text-align: center;"><span class="tick">-</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Live Chat Integration</td>
+	                     <td style="text-align: center;"><span class="tick">-</span></td>
+	                     <td style="text-align: center;"><span class="tick">-</span></td>
+	                     <td style="text-align: center;"> <span class="tick">✔</span> </td>
+	                     <td style="text-align: center;"><span class="tick">-</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Free SSL Certificate</td>
+	                     <td style="text-align: center;"><span class="tick">-</span></td>
+	                     <td style="text-align: center;"><span class="tick">-</span></td>
+	                     <td style="text-align: center;"> <span class="tick">✔</span> </td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                     <td style="text-align: center;"><span class="tick">✔</span></td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Onpage Optimization</td>
+	                     <td style="text-align: center;"><span class="tick">-</span></td>
+	                     <td style="text-align: center;"><span class="tick">-</span></td>
+	                     <td style="text-align: center;"> - </td>
+	                     <td style="text-align: center;"><span class="tick">-</span></td>
+	                     <td style="text-align: center;"><span class="tick" >✔</span></td>
+	                  </tr>
+	                  <tr>
+	                     <td style=" height: 60px; font-size: 20px;">Extra Pages (Without form)</td>
+	                     <td style="text-align: center;"> Each page Rs.500</td>
+	                     <td style="text-align: center;">Each page Rs.500</td>
+	                     <td style="text-align: center;">Each page Rs.500</td>
+	                     <td style="text-align: center;">Each page Rs.500</td>
+	                     <td> - </td>
+	                  </tr>
+	                   <tr>
+                        <td style=" height: 60px; font-size: 20px;">Custom Build (instead of wordpress)</td>
+                        <td style="text-align: center;">Extra Rs.5000</td>
+                        <td style="text-align: center;">Extra Rs.5000</td>
+                        <td style="text-align: center;">Extra Rs.5000</td>
+                        <td style="text-align: center;">Extra Rs.15000</td>
+                        <td style="text-align: center;">As per Complexity</td>
+                     </tr>
+	                  <tr>
+	                     <td style="height: 60px;"></td>
+	                     <td style="text-align: center;">
+	                       <button class="btn btn-warning" >Get Quote</button>
+	                     </td>
+	                     <td style="text-align: center;">
+	                        <button class="btn btn-warning" >Get Quote</button>
+	                     </td>
+	                     <td style="text-align: center;">
+	                        <button class="btn btn-warning" >Get Quote</button>
+	                     </td>
+	                     <td style="text-align: center;">
+	                        <button class="btn btn-warning" >Get Quote</button>
+	                     </td>
+	                     <td style="text-align: center;">
+	                     	<button class="btn btn-warning" >Get Quote</button>
+	                       
+	                        
+	                     </td>
+	                  </tr>
+	                  <tr>
+	                     <td style="height: 60px;"></td>
+	                     <td style="text-align: center;">
+	                     	<button class="btn btn-primary">View Sample</button>
+	                     </td>
+	                     <td style="text-align: center;">
+	                        <button class="btn btn-primary">View Sample</button>
+	                     </td >
+	                     <td style="text-align: center;">
+	                        <button class="btn btn-primary">View Sample</button>
+	                     </td>
+	                     <td style="text-align: center;">
+	                        <button class="btn btn-primary">View Sample</button>
+	                     </td>
+	                     <td style="text-align: center;">
+	                        <button class="btn btn-primary">View Sample</button>
+	                     </td>
+	                  </tr>
+	               </tbody>
+	            </table>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+{% endblock body %}
+  

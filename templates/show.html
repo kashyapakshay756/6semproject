@@ -1,0 +1,31 @@
+
+
+
+
+<table style="color:black; margin-left: 400px;margin-top: 30px;">
+  <tr>
+    <th>id</th>&nbsp;&nbsp;
+    <th>name</th>&nbsp;&nbsp;
+    <th>email</th>&nbsp;&nbsp;
+    <th>adderess</th>&nbsp;&nbsp;
+    <th>mobile</th>&nbsp;&nbsp;
+    <th>password</th>&nbsp;&nbsp;
+  </tr>
+   {% for data in dataset %}
+  <tr>
+  <td>{{ data.id}}</td>&nbsp;&nbsp;
+  <td>{{ data.name }}
+    </td>&nbsp;&nbsp;
+  <td>{{ data.email }}
+    </td>&nbsp;&nbsp;
+  <td>{{ data.adderess }}
+    </td>&nbsp;&nbsp;
+  <td>{{ data.mobile }}
+    </td>&nbsp;&nbsp;
+    <td>{{ data.password }}</td>
+    <td><br>
+</table>
+{% endfor %}
+  
+
+  
